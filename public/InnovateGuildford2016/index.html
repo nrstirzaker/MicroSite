@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Innovate Guildford 2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script>
+    
+        $(document).ready(function(){
+            $(".list-group-item").not(".active").hide();
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(document).on('click', '.list-group .active', function(e){
+                $(this).nextAll().toggle();
+                $(this).find('i').toggleClass('glyphicon-plus').toggleClass('glyphicon-minus');
+            });
+        });
+    </script>
+
+
+
+    <style>
+        .panel-body {
+            padding: 2px;
+        }
+        .jumbotron{
+            background: linear-gradient(#02A1E3, #53B7E9);
+            color: #ffffff;
+        }
+        .list-group-item.active {
+            background: linear-gradient(#02A1E3, #53B7E9);
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="jumbotron vertical-center text-center">
+            <h2>Innovate Guildford 2016</h2>
+            <b/>
+            <h4>These are just a few videos and resources to hopefully inspire you to learn to code and create new stuff</h4>
+            <h4>There is stuff here for parents as well</h4>
+            <b/>
+            <b/>
+            <h6>All glyphs on this site provided by <a href="http://glyphicons.com/">http://glyphicons.com/</a></h6>
+        </div>
+
+        <div class="list-group">
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                Every year we encourage kids from 4 to 104 to try coding for an hour                
+            </div>
+            <div class="list-group-item ">            
+                <a href="https://www.youtube.com/watch?v=mFPg96gdPkc" target="_blank">Here is why</a>
+            </div>
+            <div class="list-group-item">
+                <a href="https://uk.code.org/starwars" target="_blank">Using Star Wars Characters</a>
+            </div>
+            <div class="list-group-item">
+                <a href="https://code.org/mc" target="_blank">Using Minecraft characters</a> 
+            </div>
+            <div class="list-group-item">
+                <a href="https://uk.code.org/learn" target="_blank">More 'Hour of Code' resources</a> 
+            </div>
+            <div class="list-group-item">
+                <a href="https://www.madewithcode.com/projects/" target="_blank">Learning to code with Google</a> 
+            </div>
+
+
+
+        </div>
+
+
+
+        <!--<div class="row">-->
+        <div class="list-group">
+
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                What could you achieve as an Engineer? A lot more than you might think
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/Xg1dUhVI9i0" target="_blank">You could light up the world with Dance</a>
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/QBGqpdO2oEc" target="_blank">Help your community tidy up their Environment</a> 
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/-wyPV7hyOfU" target="_blank">You could find a cure for Cancer</a>
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/lHC10q_a7Nc" target="_blank">Make cool stuff</a> 
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="list-group">
+
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                Should girls trying coding - YES!
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/fYHUI2DTvjc" target="_blank">Make a film</a> 
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/_XtQUvJfw4c" target="_blank">Girl only Hack-a-thon</a> 
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://youtu.be/aFF8PYDU0D8" target="_blank">Doing their bit</a> 
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="list-group">
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                Mums and Dads: Should my kids learn to code
+            </div>
+
+            <div class="list-group-item">
+                <a href="http://www.theguardian.com/careers/careers-blog/2015/apr/14/coding-isnt-just-for-the-next-zuckerberg-it-can-help-dentists-too" target="_blank">
+                Will learning to code help you get a job?</a> 
+            </div>
+
+            <div class="list-group-item">
+                <a href="http://www.bbc.co.uk/news/uk-14683133" target="_blank">
+                The speech that helped the Government change its mind and improve our education system</a>
+            </div>
+
+            <div class="list-group-item">
+                <a href="http://www.theguardian.com/commentisfree/2012/apr/08/eric-schmidt-improve-computer-education" target="_blank">Improve British Education part II</a>
+            </div>
+
+            <div class="list-group-item">
+                <a href="http://www.theguardian.com/education/2012/mar/31/why-kids-should-be-taught-code" target="_blank">Why kids should be taught to code</a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

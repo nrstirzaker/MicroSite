@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<style>
+		.jumbotron{
+
+			background: linear-gradient(#02A1E3, #53B7E9);
+			color: #ffffff;
+		}
+
+
+		select {
+			color: #000;
+		}
+
+
+
+
+
+	</style>
+
+</head>
+<body>
+
+<div class="container">
+
+	<div class="jumbotron vertical-center text-center">
+		<h1>Please choose the event</h1>
+
+		<select onchange="if (this.options[this.selectedIndex].value != 'null') location = this.options[this.selectedIndex].value;">
+
+			<option value="null">Please select event</option>
+			<!-- christ college links to google because I couldn't find the link for it-->
+			<option value="ChristCollegeCareers2015/index.html">
+				Christ's College Careers Fayre 2015
+			</option>
+
+			<option value="RipleyCofEAspirationsDay/index.html">
+				Ripley C of E School Aspirations Day 2015
+			</option>
+
+			<option value="InnovateGuildford2016/index.html">
+				Innovate Guildford 2016
+			</option>
+
+			<option value="WimbedonHighSchool2016/index.html">
+				Stemettes Panel Event at Wimbledon High School 2016
+			</option>
+
+			<option value="RipleyCofEYr6CodeParty2016/index.html">
+				Ripley C of E School Code Party 2016
+			</option>
+			<option value="InstaHackSummer2016/index.html">
+				InstaHack Summer 2016
+			</option>
+			
+
+			<!--<option value="MozFest2015/index.html">MozFest Youth Zone 2015</option>-->
+		</select>
+	</div>
+</div>
+<!--
+<div class="text-center">
+	<h1>Please choose the event</h1>
+	<select onchange="if (this.options[this.selectedIndex].value != 'null') location = this.options[this.selectedIndex].value;">
+	  <option value="null">Please select event</option>
+
+	  <option value="http://www.googledrive.com/host/0B46aL5pW6eMMTWVjdEdMYy1LcGc">Christ College Careers 2015</option>
+	  <option value="RipleyCofEAspirationsDay/index.html">Ripley C of E School Aspirations Day</option>
+		<option value="MozFest2015/index.html">MozFest Youth Zone 2015</option>
+	</select>
+</div>
+-->
+
+</body>
+</html>

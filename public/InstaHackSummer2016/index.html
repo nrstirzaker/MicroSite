@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>InstaHack 2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script>
+    
+        $(document).ready(function(){
+            $(".list-group-item").not(".active").hide();
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(document).on('click', '.list-group .active', function(e){
+                $(this).nextAll().toggle();
+                $(this).find('i').toggleClass('glyphicon-plus').toggleClass('glyphicon-minus');
+            });
+        });
+    </script>
+
+
+
+    <style>
+        .panel-body {
+            padding: 2px;
+        }
+        .jumbotron{
+            background: linear-gradient(#02A1E3, #53B7E9);
+            color: #ffffff;
+        }
+        .list-group-item.active {
+            background: linear-gradient(#02A1E3, #53B7E9);
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="jumbotron vertical-center text-center">
+            <h2>InstaHack 2016</h2>
+            <b/>
+            <h4>Listed below are tutorial and reference websites that you'll need during the Hack</h4>
+            <b/>
+            <b/>
+            <h6>All glyphs on this site provided by <a href="http://glyphicons.com/">http://glyphicons.com/</a></h6>
+        </div>
+
+        <div class="list-group">
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                We are going to learn (in more dept) about HTML, CSS and JavaScript. But what do these languages do?               
+            </div>
+            <div class="list-group-item ">            
+                <a href="NoStyle.html" target="_blank">HTML Gives you structure Only</a>
+            </div>
+            <div class="list-group-item">
+                <a href="StyleNoFunction.html" target="_blank">Looks good but useless</a>
+            </div>
+            <div class="list-group-item">
+                <a href="FullMonty.html" target="_blank">Perfect Harmony</a> 
+            </div>
+
+        </div>
+
+
+
+        <!--<div class="row">-->
+        <div class="list-group">
+
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                These are some useful tutorial and general reference sites
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://www.codecademy.com/" target="_blank">Code Academy</a>
+            </div>
+
+            <div class="list-group-item">
+                <a href="https://dash.generalassemb.ly/" target="_blank">General Assembly (Dash)</a> 
+            </div>
+
+            <div class="list-group-item">
+                <a href="http://www.w3schools.com/" target="_blank">The best reference site</a>
+            </div>
+
+
+        </div>
+
+        <div class="list-group">
+
+            <div class="list-group-item active">
+                <i class="glyphicon glyphicon-plus"></i>
+                We will be using a framework called JQuery Mobile
+            </div>
+
+            <div class="list-group-item">
+                <a href="http://demos.jquerymobile.com/1.4.5/" target="_blank">Demo of JQuery Mobile Widgets</a> 
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
