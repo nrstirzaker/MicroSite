@@ -1,0 +1,119 @@
+
+Ok. I think we can categories things in different ways but for the minute lets divide by self learning and group learning. This will just be a list, a starting point for further discussion
+
+Group Learning
+ There are a number of groups involved in teaching kids and adult about code and tech. These include
+
+Stemettes (stemettes.org) - Anne Marie was one of the judges on the show
+CoderDojo (coderDojo.com)
+CodeClub (generally after school based, but also runs out of some libraries)
+Young Rewired State - generally for more experienced coder, but very group community orientated
+New one to me https://www.facebook.com/RobogalsUKEU, just started to laise with them
+Meetup.com - this site covers every type of "hobby". however many are tech and/or entrepreneral focussed. Also a number of companies have created meetups as their social enterprise arm. another example is http://www.meetup.com/Ladies-Who-Code-UK/
+FreeFormers (they were on the program)
+Raspberry Pi jams (https://www.raspberrypi.org/jam/)
+http://techmums.co/ Dr Sue Black - another judge runs this
+
+Online/self taught
+
+This is harder because the kid has to be self motivated, oftern parent just to a "I don;t get tech and leave them to it" :(
+
+CodeAcademy (this are also running a Meetup
+W3Schools
+
+
+On Tue, Sep 22, 2015 at 5:00 PM, Conor Paterson <conor@hassle.com> wrote:
+Not as of yet :( but we think that people are hungry for more and we can fill that. 
+
+People all over the twitter are saying they’re inspired and occasionally asking for more info. The problem, however, is like Alex said: where do they go next?
+
+Whilst the iron is hot, we figured it’s best to strike and put out some resources for those people to get cracking.
+
+Conor Paterson | Marketing
+Hassle.com
+Unit CRLG/G
+39 Brixton Road
+SW9 6DZ
+
+
+On 22 Sep 2015, at 16:52, Nigel Stirzaker <nrstirzaker.mobile@gmail.com> wrote:
+
+I'll compile a list,  then you can take a look and see if it's the right kind of stuff.  Are you getting lots of enquiries from people due to the TV program :)
+
+Nigel
+
+On 22 Sep 2015 16:19, "Conor Paterson" <conor@hassle.com> wrote:
+They’d be the ones, Nigel. I think we might make this into an article and share it on our twitter too - so, anything for that sort of age will be helpful. Entry-level, young and mainly female.
+
+Thanks an awful lot,
+
+
+Conor Paterson | Marketing
+Hassle.com
+Unit CRLG/G
+39 Brixton Road
+SW9 6DZ
+
+
+On 22 Sep 2015, at 15:13, Stirzaker, Nigel <nrstirzaker.mobile@gmail.com> wrote:
+
+More than happy to.
+
+Can you just confirm that you mean the "girls" from the TV show. Just that some of the resources I've got are school related which would not be appropriate obviously. Just lete me know and I'll send some links etc over by end of day
+
+
+Nigel
+
+On 22/09/2015 13:27, Conor Paterson wrote:
+Hi Nigel,
+
+Alex just forwarded me this email. Any chance you could suggest some resources for us? As Alex says, we’re pulling together resources for a list for the girls.
+
+Thanks a lot,
+
+Conor
+
+Conor Paterson | Marketing
+Hassle.com
+Unit CRLG/G
+39 Brixton Road
+SW9 6DZ
+
+
+On 22 Sep 2015, at 12:55, Alex <alex@hassle.com> wrote:
+
+Thanks Nigel
+
+I am pulling together a list of resources for the girls on where they can access courses, communities, groups etc and I saw that you were part of CodeClub.
+
+Conor is helping me pull this together today and I wondered if you could help by sending any links to good resources that you knew about?
+
+Any help is appreciated
+
+Thanks!
+
+On 22 September 2015 at 08:27, Nigel Stirzaker <nrstirzaker.mobile@gmail.com> wrote:
+Hi Alex,  all ears
+Nigel
+
+
+
+
+-- 
+Alex Depledge
+Hassle.com CEO & Co-Founder
+Unit CRLG/G
+Cranmer House
+39 Brixton Road
+London
+SW9 6DZ
+
+Get tech giving now, not later. The #FoundersPledge > ow.ly/O5O77
+
++(0)44 7920488580 | @adepledge
+Hassle.com | Facebook | Twitter | Google Plus
+
+
+
+
+
